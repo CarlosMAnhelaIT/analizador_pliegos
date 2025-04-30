@@ -6,7 +6,7 @@ import time
 import os
 
 # ---------------- Configuración -----------------
-GENAI_API_KEY = "AIzaSyCPhvLFkQlhVyKsXsgR9EZi09QmmlN3V-k"  # Reemplazar con tu API key
+GENAI_API_KEY=st.secrets["GENAI_API_KEY"]
 
 # Inicializar API de Google Generative AI
 genai.configure(api_key=GENAI_API_KEY)
