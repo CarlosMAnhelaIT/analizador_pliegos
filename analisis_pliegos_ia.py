@@ -173,8 +173,7 @@ if uploaded_file is not None:
             with st.expander("Previsualizar texto extraído"):
                 st.text_area("Contenido del PDF", pdf_text, height=200)
             
-            # Define el prompt internamente
-            # AQUÍ PUEDES MODIFICAR EL PROMPT SEGÚN TUS NECESIDADES
+            
             prompt = f"""
             Eres un analista inteligente de pliegos de proyectos de tecnología para la empresa Anhela IT. 
             Vas a recibir el texto del pliego de un proyecto. Tu objetivo es analizarlo minuciosamente para responder de manera completa y concisa a estas preguntas: 
@@ -194,6 +193,7 @@ if uploaded_file is not None:
             •	Importe de licitación
             •	¿Cómo debe presentarse la oferta técnica? ¿Qué apartados tiene que tener? ¿Tiene alguna limitación de hojas o formato?
             •	¿Puedes sugerir un esquema para la estructura de la oferta?
+            - Debes extraer el email y teléfono de contacto.
 
             Por favor, responde de manera organizada y bien estructurada.
 
