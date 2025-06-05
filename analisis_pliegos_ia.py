@@ -190,7 +190,7 @@ if uploaded_file is not None:
             •	¿Es necesario presentar los CVs del equipo en la fase de oferta?
             •	¿Cuáles son los criterios de valoración y qué peso tiene cada uno de ellos?
             •	¿Qué tipo de fórmula de precio se usa?
-            •	Importe de licitación. Debes presentar el resultado SIN IVA INCLUIDO. 
+            •	Importe de licitación sin IVA.
             •	¿Cómo debe presentarse la oferta técnica? ¿Qué apartados tiene que tener? ¿Tiene alguna limitación de hojas o formato?
             •	¿Puedes sugerir un esquema para la estructura de la oferta?
             - Debes extraer el email y teléfono de contacto.
