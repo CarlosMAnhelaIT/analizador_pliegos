@@ -10,7 +10,7 @@ GENAI_API_KEY=st.secrets["GENAI_API_KEY"]
 
 # Inicializar API de Google Generative AI
 genai.configure(api_key=GENAI_API_KEY)
-model = genai.GenerativeModel("gemini-2.0-flash")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 # ---------------- Estilos -----------------
 st.set_page_config(
